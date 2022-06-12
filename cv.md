@@ -15,3 +15,4 @@
 * CSS
 * Основы JS
 * GIT
+* English language level A1
