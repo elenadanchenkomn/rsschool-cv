@@ -1,1 +1,19 @@
-
+body{
+    min-height: 100vh;
+    background-color: black;
+    color: aliceblue;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .lists{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  .list {
+    margin: 20px;
+  line-height: 50px;
+  }
