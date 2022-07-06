@@ -1,15 +1,136 @@
-body {
-    background-color: blanchedalmond;
-    font: italic 20px Arial,sans-serif;
-    min-height: 100%;
+body{
+    min-height: 100vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(215, 237, 242); 
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  /*
+  .h1photo{
+    margin-top: 7%;
+    margin-left: 37%;
+  }*/
+  .contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .header{
+    background-color: hsla(260, 3%, 40%, 0.686);
+  }
+  .lists{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+  }
+  .list {
+  line-height: 50px;
+  }
+  .link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+  }
+  .link:hover {
+    color: #5d7260;
+  }
+  h2{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+  }
+ 
+  
+  
+.circle{
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 100%;
+    height: 0;
+    position: relative;
+   
+}
+ .img{
+  width:100%;
+  height:100%;
+  position: absolute;
+  clip-path: circle(50%);
+  object-fit: cover;
+}
+.mycontact {
+    list-style-type: square;
+    background-color: hsl(19, 68%, 59%);
+    border-radius: 5%;
+}
+.m_git {
+ text-decoration: none; 
+ color:  rgb(215, 237, 242);  
+}
+.foot{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+}
+.skills{
+  margin: 5%;
+}
+.myskills{
+    list-style-type:decimal;
+}
+
+.text{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.Aboutme{
+    background-color: antiquewhite;
+    color: hsl(135, 9%, 9%);
+    width: 80%;
+    padding: 2%;
+    border-radius: 5%;
     
 }
-.aboutme {
-    max-width: 800px;
+.myskills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(129, 38%, 48%);
+  border-radius: 5%;
+  color: hsl(130, 36%, 14%);
+  
+  padding-top:3% ;
+  padding-bottom: 3%;
 }
-  .conteiner {
-    margin: auto;
-    
-  }  
-
-
+.footer{
+  background-color: hsla(260, 3%, 40%, 0.686);
+}
+.gitlink{
+  text-decoration: none;
+    color: #829985;
+    transition: color 0.5s; 
+}
+.gitlink:hover{
+  color: #5d7260;
+}
+.rslink{
+  text-decoration: none;
+  color: #829985;
+  transition: color 0.5s;
+}
+.rslink:hover{
+  color: #5d7260;
+}
