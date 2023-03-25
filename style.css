@@ -1,1 +1,141 @@
-html{font-size: 10px;}
+body{
+    min-height: 100vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(215, 237, 242); 
+}
+.adress{
+  display: flex;
+  flex-direction: column;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  .photo{
+    display: flex;
+    flex-direction: column;
+  
+  }
+ 
+  .link-myContact{
+    text-decoration: none;
+    color: rgb(238, 231, 231);
+    
+  }
+  .link-myContact:hover{
+    color: cornflowerblue;
+    transition: all ,0.3s;
+    font-size: 20px;
+  }
+  .header{
+    background-color: hsla(260, 3%, 40%, 0.686);
+  }
+  .lists{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+  }
+  .list {
+  line-height: 50px;
+  }
+  .link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+  }
+  .link:hover {
+    color: #5d7260;
+  }
+  h2{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+  }
+ 
+.mycontact {
+    list-style-type: square;
+    background-color: hsl(0, 1%, 17%);
+    padding: 30px;
+}
+.m_git {
+ text-decoration: none; 
+ color:  rgb(215, 237, 242);  
+}
+.foot{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+}
+
+
+.skills,.text,.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Aboutme{
+    background-color: antiquewhite;
+    color: hsl(135, 9%, 9%);
+    width: 80%;
+    padding: 2%;
+    
+    
+}
+.myskills{
+  list-style-type:decimal;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: grey;
+  color:rgb(245, 224, 224);
+  padding: 30px;
+}
+.footer{
+  background-color: hsla(260, 3%, 40%, 0.686);
+}
+.gitlink{
+  text-decoration: none;
+    color: #829985;
+    transition: color 0.5s; 
+}
+.gitlink:hover{
+  color: #5d7260;
+}
+.rslink{
+  text-decoration: none;
+  color: #829985;
+  transition: color 0.5s;
+}
+.rslink:hover{
+  color: #5d7260;
+}
+.code_example {
+  background-color: antiquewhite;
+  color: hsl(135, 9%, 9%);
+  width: 80%;
+  padding: 2%;
+  border-radius: 5%;
+  margin-left: 90px;
+}
+.c-ex {
+  margin-left: 100px;
+}
